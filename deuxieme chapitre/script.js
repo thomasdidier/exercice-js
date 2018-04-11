@@ -5,7 +5,7 @@ setInterval(function() {
 	var seconds = currentTime.getSeconds();
 
 if (hours >= 24){
-hours = -12;
+hours = -24;
 }
 	
 	if(seconds < 10){
