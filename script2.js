@@ -1,3 +1,19 @@
+//////////////////////////////////////////////////////////////////////////////////
+/**** calculateur de lettre ****/
+
+var print = function(msg){
+
+	document.getElementById("output").innerHTML = "Length is " + msg;
+
+}
+
+document.getElementById("btn").onclick = function(event){
+	print(document.getElementById('str').value.length);
+}
+
+//////////////////////////////////////////////////////////////////////////////////
+/**** horloge ****/
+
 setInterval(function() {
 	var currentTime = new Date();
 	var hours = currentTime.getHours();
