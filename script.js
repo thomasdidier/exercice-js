@@ -34,7 +34,7 @@ $(document).ready(function(){
 	if(city != ""){
 		
 		$.ajax({
-			url:'http://api.openweathermap.org/data/2.5/weather?q='+ city + ',fr&units=metric&lang=fr&appid=06a821a408fbe8ad9d8881394efee483',
+			url:'https://api.openweathermap.org/data/2.5/weather?q='+ city + ',fr&units=metric&lang=fr&appid=06a821a408fbe8ad9d8881394efee483',
 			type: "GET",
 			dataType:"jsonp",
 			success: function(data){
