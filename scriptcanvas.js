@@ -141,7 +141,7 @@ function collisionDetection() {
 
 function drawPaddle(){
     ctx.beginPath();
-    ctx.rect (paddleX, canvas.height-paddleHeight -30, paddleWidth, paddleHeight)
+    ctx.rect (paddleX, canvas.height-paddleHeight , paddleWidth, paddleHeight)
     ctx.fillStyle = "red";
     ctx.fill();
     ctx.closePath();
